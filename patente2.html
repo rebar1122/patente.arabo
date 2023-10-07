@@ -1,0 +1,94 @@
+<style>
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.tittle1{
+    font-size: 55px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    border-bottom-style: double;
+    margin-bottom: 1px;
+}
+.tittle2{
+    font-size: 45px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 222px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 200vh;
+    
+}
+.imge1{
+    display: block;
+    margin: auto;
+    height: 20vh;
+    animation: car 2s linear 1 ;
+}
+@keyframes car 
+{
+    100%{
+        transform: translate(700px);
+    }
+    50%{
+        transform: translate(66px);
+    }
+    0%{
+        transform: translate(2px);
+    }
+}
+.inzia{
+    height: 90px;
+    width: 180px;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 180px;
+    margin-top: 100px;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Arial;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    border-color: black;
+ }
+ .inzia:hover {
+    background-color: black;
+    color: white;
+ }
+ .inzia:active{
+    opacity: 0.5;
+ }
+ .text{
+    width: 470px;
+    height: 110px;
+    font-size: 40px;
+    margin-left: 400px;
+    border: black;
+    font-style: italic;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px rgb(60, 8, 8);
+ }
+</style>
+
+
+<p class="tittle1">imparare patente in arabo</p>
+<p class="tittle2">تعليم إشارات سياقة في لغة عربية معا يطالية</p>
+
+
+<div> <img class="imge1" src="iconcar.png" alt="">
+</div>
+<button class="inzia"onclick="location.href='patente.html'">inzia</button>
+<p class="text"> izia ora per imparare le regole del patente ابدا الان تعليم قوانين سياقه  </p>
